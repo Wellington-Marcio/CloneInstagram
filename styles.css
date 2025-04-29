@@ -1,0 +1,149 @@
+*{
+box-sizing: border-box;
+margin:0;
+padding:0;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+background-color: black;
+
+
+}
+.container-cabecalho{
+
+    width: 100%;
+    height: 293px;
+    max-width: 935px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding:10px 50px 30px 50px;
+    /* background-color: rgb(11, 244, 252); */
+
+}
+.container-info-perfil {
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: #a8a8a8; */
+
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    /* background-color: red; */
+}
+
+.container-flex-row {
+
+    display: flex;
+    width: 100%;
+    gap: 12px;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.button-info-perfil {
+
+    padding: 3px 16px;
+    background-color: #363636;
+    color: white;
+    border-radius: 8px;
+    /* background-color: greenyellow; */
+}
+
+.nome-perfil {
+    font-size: 20px;
+    /* background-color: rgb(194, 10, 10); */
+
+}
+
+.icon {
+    background-color: #363636;
+    border-radius: 8px;
+    background-color: aquamarine;
+}
+
+.container-bio {
+
+    font-size: 14px;
+    height: 100px;
+    /* background-color: blueviolet; */
+}
+
+.text-info-perfil {
+    color: #a8a8a8;
+
+}
+
+strong {
+    color: white;
+}
+
+.link-github {
+    font-size: 14px;
+    color: #e0f1ff;
+    text-decoration: none;
+}
+
+.text-bio {
+    font-size: 14px;
+
+}
+
+.seguido {
+    font-size: 12px;
+    color: gray;
+}
+
+
+.destaque {
+    margin-left: 550px;
+    margin-inline-end: 10px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.destaque-icone {
+
+    width: 70px;
+    height: 70px;
+}
+
+.destaque-novo {
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.imagens {
+    height: 410px;
+    width: 307px;
+    object-fit: cover;
+
+}
+
+.container-imagens {
+
+    max-width: 935px;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.divisao {
+    width: 100%;
+    height: 55px;
+    margin-left: 635px;
+    margin-top: 53px;
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+}
